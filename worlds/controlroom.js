@@ -23,7 +23,8 @@ export function init(Constants) {
     Constants.UserBehaviorModules = [
         "csmLights.js",
         "urlLink.js",
-        "replaceWorld.js"
+        "replaceWorld.js",
+        "video.js"
     ];
 
     Constants.DefaultCards = [
@@ -47,7 +48,7 @@ export function init(Constants) {
                 placeholderOffset: [0, 0, 0],
             }
         },
-      
+
         {
             card: {
                 name: "light",
@@ -59,7 +60,7 @@ export function init(Constants) {
                 dataType: "jpg",
             }
         },
-       
+
         {
             card: {
                 translation: [0.1889979248872211, -2.1440477261730306, 11.766396555277085],
@@ -79,6 +80,25 @@ export function init(Constants) {
                 type: "3d",
             }
         },
-       
+        {
+            card: {
+                translation: [0.9471637118103811, 4.624023121144949, -27.294656744462117],
+                scale: [18, 4, 4],
+                rotation: [0, 0, 0, 1],
+                layers: ["pointer"],
+                behaviorModules: ["VideoPlayer"],
+                fullBright: true,
+                height: 1,
+                pauseTime: 0.03,
+                playStartTime: 152.363843,
+                ranslation: [0.6869556955891094, -0.6425672886613045, -12.11102208165136],
+                textureHeight: 1024,
+                textureLocation: "./assets/demo.mp4",
+                textureType: "video",
+                textureWidth: 1024,
+                type: "2d",
+                width: 1,
+            }
+        },
     ];
 }
