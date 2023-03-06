@@ -47,15 +47,7 @@ export function init(Constants) {
                 placeholderOffset: [0, 0, 0],
             }
         },
-        // {
-        //     card: {
-        //         name: "entrance",
-        //         type: "object",
-        //         translation: [50.20992018018394, -0.2193180224504948, 6.306555179539628],
-        //         rotation: [0, -0.33407710918227046, 0, 0.9425457469642614],
-        //         spawn: "default",
-        //     }
-        // },
+
         {
             card: {
                 name: "light",
@@ -67,23 +59,7 @@ export function init(Constants) {
                 dataType: "jpg",
             }
         },
-        // {
-        //     card: {
-        //         translation: [51.59826178938931, -1.6158449672018451, 3.16396191875493],
-        //         scale: [9.232972389250047, 9.232972389250047, 9.232972389250047],
-        //         rotation: [0, -0.33407710918227046, 0, 0.9425457469642614],
-        //         layers: ["pointer"],
-        //         name: "/fencing glb.glb",
-        //         dataLocation: "3De-uuRbqgRwAfmXKRPgyla2gSN8rAvMBUoU7hMja68YLDAwNDd-a2siLSghN2oxN2onNis1MSEwai0razFrPhEwMxQLPgIxCxd1Dy0jCR4tcXd9PAIAA3x0dmstK2onNis1MSEwaiktJzYrMiE2NyFqKCsnJSggITIgISIlMSgwawoiLHEDfXdyMgYOLXwvfHMFHnNxEBY9ACYmPnERJiE-NR4eMi53fDUoJRFrICUwJWsTKxAOCTIAFHExFyY1fSEuL3xwAS09FS4oDB12BWkDKx0SNHYKDzcpCxMv",
-        //         dataScale: [8.134137014012628, 8.134137014012628, 8.134137014012628],
-        //         fileName: "/fencing glb.glb",
-        //         modelType: "glb",
-        //         shadow: true,
-        //         singleSided: true,
-        //         type: "3d",
 
-        //     }
-        // },
         {
             card: {
                 translation: [4.864426492622716, -1.7254786614859574, -15.454262541561445],
@@ -125,7 +101,7 @@ export function init(Constants) {
                 translation: [27.210444303512546, -1.1892729960863369, -7.899913945329711],
                 scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
                 rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
-                layers: ["pointer"],
+                layers: ["pointer", "walk"],
                 name: "/genset glb.glb",
                 dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
                 dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
@@ -134,26 +110,106 @@ export function init(Constants) {
                 shadow: true,
                 singleSided: true,
                 type: "3d",
-            
+
             }
         },
-        // {
-        //     card: {
-        //         translation: [27.210444303512546, -1.400594996465705, -7.899913945329711],
-        //         scale: [0.48225136630819493, 0.48225136630819493, 0.48225136630819493],
-        //         rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
-        //         layers: ["pointer"],
-        //         name: "/genset glb.glb",
-        //         dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
-        //         dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
-        //         fileName: "/genset glb.glb",
-        //         modelType: "glb",
-        //         shadow: true,
-        //         singleSided: true,
-        //         type: "3d",
+        {
+            card: {
+                translation: [24.73911760404791, -1.1892729960863369, -7.042511544788567],
+                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
+                rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
+                layers: ["pointer", "walk"],
+                name: "/genset glb.glb",
+                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
+                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
+                fileName: "/genset glb.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
+            }
+        },
+        {
+            card: {
+                translation: [22.322831522701374, -1.1693319056326463, -4.863258841157834],
+                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
+                rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
+                layers: ["pointer", "walk"],
+                name: "/genset glb.glb",
+                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
+                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
+                fileName: "/genset glb.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
+            }
+        },
+        {
+            card: {
+                translation: [19.848878658274092, -1.1693319056326463, -2.89452025780316],
+                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
+                rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
+                layers: ["pointer", "walk"],
+                name: "/genset glb.glb",
+                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
+                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
+                fileName: "/genset glb.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
+            }
+        },
+        {
+            card: {
+                translation: [17.827660013172935, -1.1693319056326463, -1.0829961990076855],
+                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
+                rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
+                layers: ["pointer", "walk"],
+                name: "/genset glb.glb",
+                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
+                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
+                fileName: "/genset glb.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
 
-        //     }
-        // }
+            }
+        },
+        {
+            card: {
+                translation: [19.043838317536423, -1.7159265311363021, -10.747527155548143],
+                scale: [0.8929580455569662, 0.8929580455569662, 0.8929580455569662],
+                rotation: [0, -0.4798948388893852, 0, 0.8773260189959781],
+                layers: ["pointer"],
+                name: "/transformer glb.glb",
+                dataLocation: "3PqNiwOaJZ2F0J5ZgrMna-ZDF1Cg76LebzLzFouZNyJAOCQkICNqf382OTw1I34lI34zIj8hJTUkfjk_fyV_KgUkJwAfKhYlHwNhGzk3HQo5ZWNpKBYUF2hgYn85P34zIj8hJTUkfj05MyI_JjUiIzV-PD8zMTw0NSY0NTYxJTwkfzMPHDY8ACcUEgUzZGg0ACo9GRQGZRIpIx9lKjJmaB9jA2FpCmUjAyA6Fz9_NDEkMX8IBBkiHjphIQAIaDV9ASpifTsZHhM-FWY_Aj9laTIqHDo6ZWQoGgkDGR87",
+                dataScale: [48.46312429144301, 48.46312429144301, 48.46312429144301],
+                fileName: "/transformer glb.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
+            }
+        },
+        {
+            card: {
+                translation: [19.111342951678765, -1.7159265311363021, -9.212323790977205],
+                scale: [0.8929580455569662, 0.8929580455569662, 0.8929580455569662],
+                rotation: [0, -0.4798948388893852, 0, 0.8773260189959781],
+                layers: ["pointer"],
+                name: "/transformer glb.glb",
+                dataLocation: "3PqNiwOaJZ2F0J5ZgrMna-ZDF1Cg76LebzLzFouZNyJAOCQkICNqf382OTw1I34lI34zIj8hJTUkfjk_fyV_KgUkJwAfKhYlHwNhGzk3HQo5ZWNpKBYUF2hgYn85P34zIj8hJTUkfj05MyI_JjUiIzV-PD8zMTw0NSY0NTYxJTwkfzMPHDY8ACcUEgUzZGg0ACo9GRQGZRIpIx9lKjJmaB9jA2FpCmUjAyA6Fz9_NDEkMX8IBBkiHjphIQAIaDV9ASpifTsZHhM-FWY_Aj9laTIqHDo6ZWQoGgkDGR87",
+                dataScale: [48.46312429144301, 48.46312429144301, 48.46312429144301],
+                fileName: "/transformer glb.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
 
+            }
+        }
     ];
 }

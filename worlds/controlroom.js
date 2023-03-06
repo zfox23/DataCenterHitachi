@@ -47,15 +47,7 @@ export function init(Constants) {
                 placeholderOffset: [0, 0, 0],
             }
         },
-        // {
-        //     card: {
-        //         name: "entrance",
-        //         type: "object",
-        //         translation: [50.20992018018394, -0.2193180224504948, 6.306555179539628],
-        //         rotation: [0, -0.33407710918227046, 0, 0.9425457469642614],
-        //         spawn: "default",
-        //     }
-        // },
+      
         {
             card: {
                 name: "light",
@@ -67,21 +59,7 @@ export function init(Constants) {
                 dataType: "jpg",
             }
         },
-        // {
-        //     card: {
-        //         translation: [8.948295530289732, -0.011999999254941773, -5.148970873032047],
-        //         rotation: [0, -0.6413362256690263, 0, 0.7672599596255548],
-        //         layers: ["pointer"],
-        //         name: "/control room glb.glb",
-        //         dataLocation: "30G5Gt1PXyWKyU14QAzV1Ohl5ozdDoxkgAssta9uQC30WEREQEMKHx9WWVxVQx5FQx5TQl9BRVVEHllfH0UfSmVER2B_SnZFf2MBe1lXfWpZBQMJSHZ0dwgAAh9ZXx5TQl9BRVVEHl1ZU0JfRlVCQ1UeXF9TUVxUVUZUVVZRRVxEH3xlaFt2alMJRUVzdVZIBkkIRXFzV1gCWFdldnpgVVN0ZnFYBgRfSURnRlMfVFFEUR9SQFh7ZmYEB1FhBgddBQAHWXZ9fh1_clhIY29SXnJ8fWlvSXlEVH55WUlp",
-        //         dataScale: [0.31934038024111905, 0.31934038024111905, 0.31934038024111905],
-        //         fileName: "/control room glb.glb",
-        //         modelType: "glb",
-        //         shadow: true,
-        //         singleSided: true,
-        //         type: "3d",
-        //     }
-        // },
+       
         {
             card: {
                 translation: [0.1889979248872211, -2.1440477261730306, 11.766396555277085],
@@ -101,26 +79,6 @@ export function init(Constants) {
                 type: "3d",
             }
         },
-        // {
-        //     card: {
-        //         translation: [0.782132752381596, -1.8717448299612007, -10.97610274975624],
-        //         scale: [0.7568584241693452, 0.7568584241693452, 0.7568584241693452],
-        //         rotation: [0, 0.9411436286069209, 0, 0.3380069087054258],
-        //         layers: ["pointer"],
-        //         name: "/gate glb.glb",
-        //         dataLocation: "3N1bJyVRuGGGa_sGpC9qD0zcZZXKSV5srX4urIPhfStoJjo6Pj10YWEoJyIrPWA7PWAtPCE_Oys6YCchYTthNBs6OR4BNAg7AR1_BScpAxQne313NggKCXZ-fGEnIWAtPCE_Oys6YCMnLTwhOCs8PStgIiEtLyIqKzgqKygvOyI6YS0UeXYrd3gFDDY4OjR6CxQvID8XPQ0IChZ-CTkRHjodOSglOxo8PzwFJi1hKi86L2EdfSoRITYnIiwtOnkYCBQ0eD4qB3YMCiQFPykAISI-AT82KQojY3sWHxgh",
-        //         dataScale: [36.94713610124053, 36.94713610124053, 36.94713610124053],
-        //         fileName: "/gate glb.glb",
-        //         modelType: "glb",
-        //         behaviorModules: ["ReplaceWorld"],
-        //         replaceWorldPreserveOrigin: "//(.*\\.)?croquet.(io|dev)$",
-        //         replaceWorldTargetURL: "?world=reception",
-        //         shadow: true,
-        //         singleSided: true,
-        //         type: "3d",
-
-        //     }
-        // },
-
+       
     ];
 }

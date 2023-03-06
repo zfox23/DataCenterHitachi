@@ -87,24 +87,5 @@ export function init(Constants) {
 
             }
         },
-        // {
-        //     card: {
-        //         translation: [56.04621764708816, -0.5275792536452496, -1.0649955193930971],
-        //         scale: [1.4661466186703074, 1.4661466186703074, 1.4661466186703074],
-        //         rotation: [-0.6649489295912685, 0.6553938640564272, -0.25486243056845304, 0.25168819097715334],
-        //         layers: ["pointer"],
-        //         behaviorModules: ["ReplaceWorld"],
-        //         name: "/transparent.glb",
-        //         dataLocation: "3P9Rs9Vga5lOQZsLYB9fg8IfP5kYXZy35rNWDVbaIct4OCQkICNqf382OTw1I34lI34zIj8hJTUkfjk_fyV_KgUkJwAfKhYlHwNhGzk3HQo5ZWNpKBYUF2hgYn85P34zIj8hJTUkfj05MyI_JjUiIzV-PD8zMTw0NSY0NTYxJTwkfwlgBBISIiIjKCcJITI6YhgfOTwEMjskOWESGAIzAH0FGSoYNwYiAWNlYBF_NDEkMX8iHR4iAQg9ZgUjOmFoDxsZCiMfATJkMTtjBQU-NjYWHT4cPyc_ZT07NQdo",
-        //         dataScale: [1.5678540693078458, 1.5678540693078458, 1.5678540693078458],
-        //         fileName: "/transparent.glb",
-        //         modelType: "glb",
-        //         replaceWorldPreserveOrigin: "//(.*\\.)?croquet.(io|dev)$",
-        //         replaceWorldTargetURL: "?world=reception",
-        //         shadow: true,
-        //         singleSided: true,
-        //         type: "3d",
-        //     }
-        // },
     ];
 }

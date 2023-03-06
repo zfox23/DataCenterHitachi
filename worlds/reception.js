@@ -78,25 +78,7 @@ export function init(Constants) {
 
             }
         },
-        // {
-        //     card: {
-        //         translation: [0.007450410491661508, -1.6238039796013033, -12.853768192565912],
-        //         scale: [12.353886683406998, 12.353886683406998, 12.353886683406998],
-        //         rotation: [0, 0.9996874797211954, 0, 0.02499885774759396],
-        //         layers: ["pointer"],
-        //         name: "/reception final.glb",
-        //         animationClipIndex: 0,
-        //         animationStartTime: 244974,
-        //         dataLocation: "3inoHC2FAS5OGIRmFO1323l07qA-TqEQ-DYkkSgDqUO0AR0dGRpTRkYPAAUMGkccGkcKGwYYHAwdRwAGRhxGEzwdHjkmEy8cJjpYIgAOJDMAXFpQES8tLlFZW0YABkcKGwYYHAwdRwQAChsGHwwbGgxHBQYKCAUNDB8NDA8IHAUdRhgiHlAeAS0aGSIQICsLAC8dLz02BQciWCETOloxPQInWwdYEAA8WDAHPA5GDQgdCEYtGBgEXx9dGggmXgMvLSQ5IhxcIjocWRoRLxEvMwArIApaJzkoAT0CJVoa",
-        //         dataScale: [0.9487357609692861, 0.9487357609692861, 0.9487357609692861],
-        //         fileName: "/reception final.glb",
-        //         modelType: "glb",
-        //         shadow: true,
-        //         singleSided: true,
-        //         type: "3d",
-
-        //     }
-        // },
+       
         {
             card: {
                 translation: [6.770171340711238, -1.8959333931386346, -34.43289842530114],

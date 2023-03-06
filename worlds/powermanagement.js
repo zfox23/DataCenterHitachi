@@ -86,22 +86,6 @@ export function init(Constants) {
                 replaceWorldTargetURL: "?world=reception",
             }
         },
-        // {
-        //     card: {
-        //         translation: [0, 0, -6],
-        //         rotation: [0, 0, 0, 1],
-        //         layers: ["pointer"],
-        //         name: "/power management roomblend glb.glb",
-        //         dataLocation: "3K54d72wwoiUpGEdrDYEMMN__MtYAbJNYORvrS4SaPNUIz8_OzhxZGQtIicuOGU-OGUoOSQ6Pi4_ZSIkZD5kMR4_PBsEMQ0-BBh6ACIsBhEifnhyMw0PDHN7eWQiJGUoOSQ6Pi4_ZSYiKDkkPS45OC5lJyQoKicvLj0vLi0qPic_ZH0lFB4GEQcIOxMMLThyKREMCS0ZDQhyIgF9LnMcPnkuHx95A34YGSIyJyxkLyo_KmQZCCp-Lj0JEi0jMjMkERRzBT5-AjskMwIeIBMqDgAYDHoELBp6BAMvLwks",
-        //         dataScale: [0.016285755060983984, 0.016285755060983984, 0.016285755060983984],
-        //         fileName: "/power management roomblend glb.glb",
-        //         modelType: "glb",
-        //         shadow: true,
-        //         singleSided: true,
-        //         type: "3d",
-
-        //     }
-        // },
-
+      
     ];
 }
