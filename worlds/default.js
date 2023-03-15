@@ -23,7 +23,8 @@ export function init(Constants) {
     Constants.UserBehaviorModules = [
         "csmLights.js",
         "urlLink.js",
-        "replaceWorld.js"
+        "replaceWorld.js",
+        "popup.js"
     ];
 
     Constants.DefaultCards = [
@@ -35,10 +36,10 @@ export function init(Constants) {
                 singleSided: true,
                 shadow: true,
                 translation: [0, -1.7, 0],
-                rotation: [0, -0.33407710918227046, 0, 0.9425457469642614],
+                rotation: [0, 0, 0, 1],
                 name: "/fencing glb.glb",
                 dataLocation: "3De-uuRbqgRwAfmXKRPgyla2gSN8rAvMBUoU7hMja68YLDAwNDd-a2siLSghN2oxN2onNis1MSEwai0razFrPhEwMxQLPgIxCxd1Dy0jCR4tcXd9PAIAA3x0dmstK2onNis1MSEwaiktJzYrMiE2NyFqKCsnJSggITIgISIlMSgwawoiLHEDfXdyMgYOLXwvfHMFHnNxEBY9ACYmPnERJiE-NR4eMi53fDUoJRFrICUwJWsTKxAOCTIAFHExFyY1fSEuL3xwAS09FS4oDB12BWkDKx0SNHYKDzcpCxMv",
-                dataScale: [75.1022624608, 75.1022624608, 75.1022624608],
+                dataScale: [110.1022624608, 110.1022624608, 110.1022624608],
                 fileName: "/fencing glb.glb",
                 modelType: "glb",
                 placeholder: true,
@@ -47,7 +48,6 @@ export function init(Constants) {
                 placeholderOffset: [0, 0, 0],
             }
         },
-
         {
             card: {
                 name: "light",
@@ -59,12 +59,11 @@ export function init(Constants) {
                 dataType: "jpg",
             }
         },
-
         {
             card: {
-                translation: [4.864426492622716, -1.7254786614859574, -15.454262541561445],
-                scale: [2.966891747803932, 2.966891747803932, 2.966891747803932],
-                rotation: [0, -0.34122040450307417, 0, 0.9399833166342679],
+                translation: [-7.0190447278987245, -1.7254786614859574, -24.93703191205553],
+                scale: [5.847053442245466, 5.847053442245466, 5.847053442245466],
+                rotation: [0, 0, 0, 1],
                 layers: ["pointer", "walk"],
                 name: "/Building glb 1.glb",
                 dataLocation: "3X8QKLdkkhOCpikM4Nsd406ZtYmhwhwoYg9DUyV-opqcMCwsKCtid3c-MTQ9K3YtK3Y7KjcpLT0sdjE3dy13Ig0sLwgXIh4tFwtpEzE_FQIxbWthIB4cH2BoancxN3Y7KjcpLT0sdjUxOyo3Lj0qKz12NDc7OTQ8PS48PT45LTQsd2geb2sOEWwXHRsxbC0cYAExLQo8FzU1ITpgLgAUPgc6Dw0JKgoAH20AaTd3PDksOXcuOzwNdS8QazoaMjMydQAcGisNMGBsET0rKWkfNzAfMnUWKxJpDyodDygN",
@@ -74,33 +73,53 @@ export function init(Constants) {
                 shadow: true,
                 singleSided: true,
                 type: "3d",
+
             }
         },
         {
             card: {
-                translation: [0.782132752381596, -1.8717448299612007, -10.97610274975624],
-                scale: [0.7568584241693452, 0.7568584241693452, 0.7568584241693452],
-                rotation: [0, 0.9411436286069209, 0, 0.3380069087054258],
+                translation: [-7.195595619466183, -1.9026332077896082, -12.958162949480787],
+                scale: [1.1515578491694043, 1.1515578491694043, 1.1515578491694043],
+                rotation: [-0.0022577005160621423, 0.9994784453952842, 0.002565262322578757, -0.032111670897384245],
                 layers: ["pointer"],
+                behaviorModules: ["ReplaceWorld"],
                 name: "/gate glb.glb",
                 dataLocation: "3N1bJyVRuGGGa_sGpC9qD0zcZZXKSV5srX4urIPhfStoJjo6Pj10YWEoJyIrPWA7PWAtPCE_Oys6YCchYTthNBs6OR4BNAg7AR1_BScpAxQne313NggKCXZ-fGEnIWAtPCE_Oys6YCMnLTwhOCs8PStgIiEtLyIqKzgqKygvOyI6YS0UeXYrd3gFDDY4OjR6CxQvID8XPQ0IChZ-CTkRHjodOSglOxo8PzwFJi1hKi86L2EdfSoRITYnIiwtOnkYCBQ0eD4qB3YMCiQFPykAISI-AT82KQojY3sWHxgh",
                 dataScale: [36.94713610124053, 36.94713610124053, 36.94713610124053],
                 fileName: "/gate glb.glb",
                 modelType: "glb",
-                behaviorModules: ["ReplaceWorld"],
                 replaceWorldPreserveOrigin: "//(.*\\.)?croquet.(io|dev)$",
                 replaceWorldTargetURL: "?world=reception",
                 shadow: true,
                 singleSided: true,
                 type: "3d",
 
+
             }
         },
         {
             card: {
-                translation: [27.210444303512546, -1.1892729960863369, -7.899913945329711],
+                translation: [21.455400970972285, -1.1892729960863369, -34.82069218952528],
                 scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
-                rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
+                rotation: [0, 0, 0, 1],
+                layers: ["pointer", "walk"],
+                name: "/genset glb.glb",
+                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
+                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
+                fileName: "/genset glb.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
+
+
+            }
+        },
+        {
+            card: {
+                translation: [21.495477710570157, -1.1892729960863369, -31.351417486024978],
+                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
+                rotation: [0, 0, 0, 1],
                 layers: ["pointer", "walk"],
                 name: "/genset glb.glb",
                 dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
@@ -115,57 +134,9 @@ export function init(Constants) {
         },
         {
             card: {
-                translation: [24.73911760404791, -1.1892729960863369, -7.042511544788567],
+                translation: [21.54473866589609, -1.1892729960863369, -28.68817494127406],
                 scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
-                rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
-                layers: ["pointer", "walk"],
-                name: "/genset glb.glb",
-                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
-                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
-                fileName: "/genset glb.glb",
-                modelType: "glb",
-                shadow: true,
-                singleSided: true,
-                type: "3d",
-            }
-        },
-        {
-            card: {
-                translation: [22.322831522701374, -1.1693319056326463, -4.863258841157834],
-                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
-                rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
-                layers: ["pointer", "walk"],
-                name: "/genset glb.glb",
-                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
-                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
-                fileName: "/genset glb.glb",
-                modelType: "glb",
-                shadow: true,
-                singleSided: true,
-                type: "3d",
-            }
-        },
-        {
-            card: {
-                translation: [19.848878658274092, -1.1693319056326463, -2.89452025780316],
-                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
-                rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
-                layers: ["pointer", "walk"],
-                name: "/genset glb.glb",
-                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
-                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
-                fileName: "/genset glb.glb",
-                modelType: "glb",
-                shadow: true,
-                singleSided: true,
-                type: "3d",
-            }
-        },
-        {
-            card: {
-                translation: [17.827660013172935, -1.1693319056326463, -1.0829961990076855],
-                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
-                rotation: [0, -0.4032205280274045, 0, 0.9151028389079017],
+                rotation: [0, 0, 0, 1],
                 layers: ["pointer", "walk"],
                 name: "/genset glb.glb",
                 dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
@@ -180,26 +151,45 @@ export function init(Constants) {
         },
         {
             card: {
-                translation: [19.043838317536423, -1.7159265311363021, -10.747527155548143],
-                scale: [0.8929580455569662, 0.8929580455569662, 0.8929580455569662],
-                rotation: [0, -0.4798948388893852, 0, 0.8773260189959781],
-                layers: ["pointer","walk"],
-                name: "/transformer glb.glb",
-                dataLocation: "3PqNiwOaJZ2F0J5ZgrMna-ZDF1Cg76LebzLzFouZNyJAOCQkICNqf382OTw1I34lI34zIj8hJTUkfjk_fyV_KgUkJwAfKhYlHwNhGzk3HQo5ZWNpKBYUF2hgYn85P34zIj8hJTUkfj05MyI_JjUiIzV-PD8zMTw0NSY0NTYxJTwkfzMPHDY8ACcUEgUzZGg0ACo9GRQGZRIpIx9lKjJmaB9jA2FpCmUjAyA6Fz9_NDEkMX8IBBkiHjphIQAIaDV9ASpifTsZHhM-FWY_Aj9laTIqHDo6ZWQoGgkDGR87",
-                dataScale: [48.46312429144301, 48.46312429144301, 48.46312429144301],
-                fileName: "/transformer glb.glb",
+                translation: [21.525827251452995, -1.1892729960863369, -25.796740752779034],
+                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
+                rotation: [0, 0, 0, 1],
+                layers: ["pointer", "walk"],
+                name: "/genset glb.glb",
+                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
+                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
+                fileName: "/genset glb.glb",
                 modelType: "glb",
                 shadow: true,
                 singleSided: true,
                 type: "3d",
+
             }
         },
         {
             card: {
-                translation: [19.111342951678765, -1.7159265311363021, -9.212323790977205],
+                translation: [21.659918326330057, -1.1892729960863369, -22.933793016801975],
+                scale: [0.922594815075871, 0.922594815075871, 0.922594815075871],
+                rotation: [0, 0, 0, 1],
+                layers: ["pointer", "walk"],
+                name: "/genset glb.glb",
+                dataLocation: "3lYZCbMJGiTrKVtFxQe8-nH5vrN4WRXuxJ5Yhn8QfkOgBBgYHB9WQ0MKBQAJH0IZH0IPHgMdGQkYQgUDQxlDFjkYGzwjFioZIz9dJwULITYFWV9VFCooK1RcXkMFA0IPHgMdGQkYQgEFDx4DGgkeHwlCAAMPDQAICRoICQoNGQAYQ0EOPjZbJDxfVQsYOVgUNgUDXTwLNRhdNRlYHj0hQQgGXgleWlUbOw4pODlDCA0YDUNYOAFUDV1bFiM9HyAvHQlYFVUpPRVeHxouPCVbKgpUKBYvCwYUAlUKIlVY",
+                dataScale: [1.2120217359760301, 1.2120217359760301, 1.2120217359760301],
+                fileName: "/genset glb.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
+                behaviorModules: ["Popup"], 
+
+            }
+        },
+        {
+            card: {
+                translation: [15.553709936712654, -1.7159265311363021, -32.65446693648686],
                 scale: [0.8929580455569662, 0.8929580455569662, 0.8929580455569662],
-                rotation: [0, -0.4798948388893852, 0, 0.8773260189959781],
-                layers: ["pointer","walk"],
+                rotation: [0, 0, 0, 1],
+                layers: ["pointer", "walk"],
                 name: "/transformer glb.glb",
                 dataLocation: "3PqNiwOaJZ2F0J5ZgrMna-ZDF1Cg76LebzLzFouZNyJAOCQkICNqf382OTw1I34lI34zIj8hJTUkfjk_fyV_KgUkJwAfKhYlHwNhGzk3HQo5ZWNpKBYUF2hgYn85P34zIj8hJTUkfj05MyI_JjUiIzV-PD8zMTw0NSY0NTYxJTwkfzMPHDY8ACcUEgUzZGg0ACo9GRQGZRIpIx9lKjJmaB9jA2FpCmUjAyA6Fz9_NDEkMX8IBBkiHjphIQAIaDV9ASpifTsZHhM-FWY_Aj9laTIqHDo6ZWQoGgkDGR87",
                 dataScale: [48.46312429144301, 48.46312429144301, 48.46312429144301],
@@ -208,6 +198,24 @@ export function init(Constants) {
                 shadow: true,
                 singleSided: true,
                 type: "3d",
+
+            }
+        },
+        {
+            card: {
+                translation: [15.440692276558654, -1.7159265311363021, -29.921511030156],
+                scale: [0.8929580455569662, 0.8929580455569662, 0.8929580455569662],
+                rotation: [0, 0, 0, 1],
+                layers: ["pointer", "walk"],
+                name: "/transformer glb.glb",
+                dataLocation: "3PqNiwOaJZ2F0J5ZgrMna-ZDF1Cg76LebzLzFouZNyJAOCQkICNqf382OTw1I34lI34zIj8hJTUkfjk_fyV_KgUkJwAfKhYlHwNhGzk3HQo5ZWNpKBYUF2hgYn85P34zIj8hJTUkfj05MyI_JjUiIzV-PD8zMTw0NSY0NTYxJTwkfzMPHDY8ACcUEgUzZGg0ACo9GRQGZRIpIx9lKjJmaB9jA2FpCmUjAyA6Fz9_NDEkMX8IBBkiHjphIQAIaDV9ASpifTsZHhM-FWY_Aj9laTIqHDo6ZWQoGgkDGR87",
+                dataScale: [48.46312429144301, 48.46312429144301, 48.46312429144301],
+                fileName: "/transformer glb.glb",
+                modelType: "glb",
+                shadow: true,
+                singleSided: true,
+                type: "3d",
+
 
             }
         }
